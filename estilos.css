@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* ----------------------------- HEADER ----------------------------------*/
 .cabeza{
     font-family: 'righteous';
     color: #5ce46e;
-    background-color: #1e2326;
+    background-color: #3c3f42   ;
     position: fixed;
     width: 100%;
     top: 0;
@@ -16,16 +17,69 @@
 
 }
 .cabeza h1 {
-    margin: 0; /* Evita márgenes innecesarios */
-    padding-left: 100px; /* Aumenta el padding para mover más a la derecha */
+    margin: 0; 
+    padding-left: 100px; 
   }
   
   .cabeza h3 {
-    margin-left: 0; /* Espacio entre los h3 */
+    margin-left: 0; 
   }
 
   .cabeza .menu {
     display: flex;
-    gap: 25px; /* Ajusta el espacio entre los h3 */
-    padding-right: 200px; /* Aumenta el padding para mover más a la derecha */
+    gap: 25px;
+    padding-right: 200px; 
+}
+
+/* ----------------------------- INICIO ----------------------------------*/
+.inicio {
+    font-family: 'Righteous';
+    color: white;
+    background-image: url('img/fondo.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.contenedor {
+    background-color: #3c3f42; 
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.contenedor img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    border: 5px solid #5ce46e; 
+
+}
+
+.contenedor h1, .contenedor p {
+    margin: 10px 0;
+}
+
+.contenedorIconos {
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+    margin-top: 20px; 
+    
+}
+
+.contenedorIconos svg {
+    width: 50px; 
+    height: 50px; 
+    fill: #1e2326; 
+
+}
+
+#linkedin{
+    width: 40px;
+    height: 40px;
+    align-self: center;
 }
