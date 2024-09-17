@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.cabeza{
+    font-family: 'righteous';
+    color: #5ce46e;
+    background-color: #1e2326;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.cabeza h1 {
+    margin: 0; /* Evita márgenes innecesarios */
+    padding-left: 100px; /* Aumenta el padding para mover más a la derecha */
+  }
+  
+  .cabeza h3 {
+    margin-left: 0; /* Espacio entre los h3 */
+  }
+
+  .cabeza .menu {
+    display: flex;
+    gap: 25px; /* Ajusta el espacio entre los h3 */
+    padding-right: 200px; /* Aumenta el padding para mover más a la derecha */
+}
