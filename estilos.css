@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth; /* Añade desplazamiento suave */
+}
 /* ----------------------------- HEADER ----------------------------------*/
 .cabeza{
     font-family: 'righteous';
     color: #5ce46e;
-    background-color: #3c3f42   ;
+    background-color: #0d0e0f   ;
     position: fixed;
     width: 100%;
+    height: 60px;
     top: 0;
     left: 0;
     z-index: 99;
@@ -18,7 +27,7 @@
 }
 .cabeza h1 {
     margin: 0; 
-    padding-left: 100px; 
+    padding-left: 100px; /* Aumenta el padding para mover más a la derecha */
   }
   
   .cabeza h3 {
@@ -30,12 +39,16 @@
     gap: 25px;
     padding-right: 200px; 
 }
-
+.cabeza .menu a {
+    text-decoration: none;  /* Elimina el subrayado */
+    color: inherit;         /* Mantiene el color del contenedor cabeza */
+    font-family: 'Righteous';
+}
 /* ----------------------------- INICIO ----------------------------------*/
 .inicio {
     font-family: 'Righteous';
     color: white;
-    background-image: url('img/fondo.jpeg'); 
+    background: url(img/fondo.jpeg);
     background-size: cover; 
     background-position: center; 
     height: 100vh; 
@@ -45,7 +58,7 @@
 }
 
 .contenedor {
-    background-color: #3c3f42; 
+    background-color: #0d0e0f; 
     padding: 40px;
     border-radius: 20px;
     text-align: center;
@@ -74,7 +87,7 @@
 .contenedorIconos svg {
     width: 50px; 
     height: 50px; 
-    fill: #1e2326; 
+    fill: #5ce46e; 
 
 }
 
@@ -82,4 +95,13 @@
     width: 40px;
     height: 40px;
     align-self: center;
+}
+
+/* ----------------------------- SOBRE MI ----------------------------------*/
+
+.SobreMi {
+
+    background-color: #0d0e0f;
+    height: 100vh; 
+
 }
