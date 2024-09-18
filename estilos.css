@@ -101,7 +101,51 @@ html {
 
 .SobreMi {
 
+    font-family: 'Righteous';
+    color: white;
     background-color: #0d0e0f;
     height: 100vh; 
 
+}
+
+.SobreMi h1 {
+
+    padding-top: 8%;
+    font-size: 45px;
+    text-align: center;
+}
+
+.SobreMi p {
+
+    padding-top: 40px;
+    max-width: 68%;
+    margin: 0 auto;
+}
+
+
+.datos1 {
+    padding-top: 100px;
+    padding-left: 10%;
+    max-width: 80%; 
+    margin: 0 auto; 
+    text-align: left;
+}
+
+
+.datos {
+    padding-top: 20px; 
+}
+
+.datos ul {
+    list-style: none; 
+}
+
+.datos ul li {
+    margin-bottom: 10px; 
+}
+
+.datos ul li strong {
+    color: #5ce46e; 
+    display: inline-block;
+    width: 100px; /* Asegura que haya un espacio fijo entre el título y el contenido */
 }
