@@ -122,8 +122,8 @@ html {
     margin: 0 auto;
 }
 
-
-.datos1 {
+/*------------------------- DATOS PERSONALES ---------------------------*/
+.datosheader {
     padding-top: 100px;
     padding-left: 10%;
     max-width: 80%; 
@@ -147,5 +147,10 @@ html {
 .datos ul li strong {
     color: #5ce46e; 
     display: inline-block;
-    width: 100px; /* Asegura que haya un espacio fijo entre el título y el contenido */
+    width: 100px; 
+}
+
+/*------------------------- INTERESES ---------------------------*/
+.colIntereses{
+   padding-top: 100px;
 }
