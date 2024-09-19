@@ -229,3 +229,60 @@ html {
     padding: 10px;
     border-radius: 15px;
 }
+
+/* ---------------------- SECCION PROYECTOS --------------------------- */
+
+.Proyectos{
+    font-family: 'Righteous';
+    color: white;
+    background-color: #0d0e0f;
+    height: 100vh; 
+}
+
+.Proyectos h2 {
+    font-size: 35px;
+}
+
+.filaconocimientos{
+    height: 500px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.contenedorcolumna{
+
+}
+
+.filaproyectos{
+    width: 100%;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+}
+.headerconocimientos{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.contenedorconocimientos{
+    margin-top: 30px;
+    gap: 70px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+.conocimiento-item{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
