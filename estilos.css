@@ -144,7 +144,6 @@ html {
 }
 
 
-
 .datosheader, .colIntereses {
     height: 250px;
     width: 500px;
@@ -252,18 +251,16 @@ html {
     align-items: center;
     justify-content: space-around;
 }
-.contenedorcolumna{
-
-}
 
 .filaproyectos{
     width: 100%;
-    height: 440px;
+    height: 390px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .headerconocimientos{
-    height: 50px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: start;
@@ -280,10 +277,67 @@ html {
 
 }
 
-.conocimiento-item{
+.conocimiento-item {
     height: 100px;
-    width: 100px;
+    max-width: 100px;
     display: flex;
     justify-content: center;
 }
 
+.conocimiento-item img{
+    height: 100px;
+    width: 100px;
+    transition: .3s;
+    border-radius: 10px;
+}
+
+.conocimiento-item img:hover{
+   
+    background-color:rgba(255, 255, 255, 0.1);
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.2), 
+                -10px -10px 20px rgba(255, 255, 255, 0.2); 
+
+}
+
+.headerproyectos{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: start; 
+}
+
+/* .contenedor-forma {
+    width: 1200px;
+    background-color: #1e2326;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border: 5px solid #1e2326; 
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7), 
+    -10px -10px 20px rgba(255, 255, 255, 0.2); 
+  } */
+
+  .contenedorproyectos{
+    gap: 100px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+.proyecto-item img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    transition: .3s;
+    
+}
+
+.proyecto-item img:hover{
+    background-color:rgba(255, 255, 255, 0.1);
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.2), 
+                -10px -10px 20px rgba(255, 255, 255, 0.2); 
+
+}
