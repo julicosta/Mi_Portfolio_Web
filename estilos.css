@@ -394,3 +394,75 @@ html {
     justify-content: center;
     align-items: start;
 }
+
+.contenedor-img{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.contenedor-img i{
+    font-size: 30px;
+}
+
+/* -------------------------- CONTACTO -----------------------------  */
+
+.Contacto {
+
+    font-family: 'Righteous';
+    color: white;
+    background-color: #0d0e0f;
+    height: 100vh; 
+
+}
+
+.fila-contacto{
+    height: 500px;
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-contacto{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.contenedor-contacto{
+    position: relative;
+height: 300px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+
+.itemtxt input, .itemtxt textarea {
+   
+    width: 490px;
+    padding: 18px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #252a2e;
+    color: #fff;
+    font-size: 18px;
+    }
+
+.contenedor-imgubi{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-imgubi img{
+width: 470px;
+height: 470px;
+}
