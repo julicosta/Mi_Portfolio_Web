@@ -98,6 +98,13 @@ html {
     align-self: center;
 }
 
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 /* ----------------------------- SOBRE MI ----------------------------------*/
 
 .SobreMi {
@@ -223,7 +230,11 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 2px solid #fff;
+    color: white;
     background-color: #5ce46e;
     font-family: 'manrope';
     padding: 10px;
@@ -240,11 +251,11 @@ html {
 }
 
 .Proyectos h2 {
+    margin-top: 100px;
     font-size: 35px;
 }
 
 .filaconocimientos{
-    height: 500px;
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -255,7 +266,7 @@ html {
 
 .filaproyectos{
     width: 100%;
-    height: 390px;
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -276,7 +287,6 @@ html {
     margin-top: 30px;
     gap: 70px;
     width: 100%;
-    height: 200px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -308,7 +318,7 @@ html {
 }
 
 .headerproyectos{
-    height: 20px;
+
     display: flex;
     justify-content: center;
     align-items: start; 
@@ -328,17 +338,18 @@ html {
 
   .contenedorproyectos{
     width: 100%;
-    height: 200px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+  justify-content: center;
+    justify-items: center;
+    gap: 5%;
+    margin-top: 20px;
   }
 
   .imagen-contenedor {
     position: relative;
-    width: 200px;
-    height: 200px;
+ 
 }
 
 .imagen-contenedor img {
@@ -374,9 +385,18 @@ html {
     opacity: 1; 
 }
 
+.proyecto-item{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .proyecto-item img{
-    height: 200px;
-    width: 200px;
+max-width: 300px;
+max-height: 300px;
+min-width: 300px;
+min-height: 300px;
     border-radius: 10px;
     transition: .3s;
     
@@ -390,24 +410,40 @@ html {
 }
 
 .proyecto-item span {
-    height: 50px;
+    height: 30px;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .contenedor-img{
     height: 50px;
     display: flex;
-    justify-content: center;
-    align-items: end;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .contenedor-img i{
     font-size: 30px;
 }
 
+.git-icon{
+    color: #fff;
+}
+
+.game-icon{
+    color: #fff;
+}
+
+.text-project{
+    text-align: center;
+}
+
 /* -------------------------- CONTACTO -----------------------------  */
+
+
 
 .Contacto {
 
@@ -416,6 +452,11 @@ html {
     background-color: #0d0e0f;
     height: 100vh; 
 
+}
+
+.header-contacto{
+    
+    font-size: 35px
 }
 
 .fila-contacto{
@@ -433,7 +474,7 @@ html {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
 }
 
 .contenedor-contacto{
