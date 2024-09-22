@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 * {
     margin: 0;
@@ -10,7 +11,7 @@ html {
 }
 /* ----------------------------- HEADER ----------------------------------*/
 .cabeza{
-    font-family: 'righteous';
+    font-family: 'manrope';
     color: #5ce46e;
     background-color: #0d0e0f   ;
     position: fixed;
@@ -42,11 +43,11 @@ html {
 .cabeza .menu a {
     text-decoration: none;  
     color: inherit;        
-    font-family: 'Righteous';
+    font-family: 'manrope';
 }
 /* ----------------------------- INICIO ----------------------------------*/
 .inicio {
-    font-family: 'Righteous';
+    font-family: 'manrope';
     color: white;
     background: url(img/fondo.jpeg);
     background-size: cover; 
@@ -101,7 +102,7 @@ html {
 
 .SobreMi {
 
-    font-family: 'Righteous';
+    font-family: 'manrope';
     color: white;
     background-color: #0d0e0f;
     height: 100vh; 
@@ -126,7 +127,7 @@ html {
 
 .datospersonales, .titulointereses{
     font-size: 35px;
-    width: 290px;
+    width: 300px;
     height: 65px;
 }
 
@@ -203,7 +204,7 @@ html {
 
 .interes-item span {
     color: white;
-    font-family: 'Righteous';
+    font-family: 'manrope';
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -224,7 +225,7 @@ html {
     justify-content: center;
     font-size: 25px;
     background-color: #5ce46e;
-    font-family: 'Righteous';
+    font-family: 'manrope';
     padding: 10px;
     border-radius: 15px;
 }
@@ -232,7 +233,7 @@ html {
 /* ---------------------- SECCION PROYECTOS --------------------------- */
 
 .Proyectos{
-    font-family: 'Righteous';
+    font-family: 'manrope';
     color: white;
     background-color: #0d0e0f;
     height: 100vh; 
@@ -410,7 +411,7 @@ html {
 
 .Contacto {
 
-    font-family: 'Righteous';
+    font-family: 'manrope';
     color: white;
     background-color: #0d0e0f;
     height: 100vh; 
