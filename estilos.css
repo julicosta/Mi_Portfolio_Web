@@ -456,7 +456,7 @@ min-height: 300px;
 }
 
 .fila-contacto{
-    width: 65%;
+    width: 69%;
     margin: 0 auto;
     margin-top: 20px;
     display: flex;
@@ -493,6 +493,7 @@ min-height: 300px;
 
 
 .itemtxt textarea{
+    max-height: 300px;
     resize: vertical;
 }
     
