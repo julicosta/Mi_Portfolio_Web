@@ -460,7 +460,7 @@ min-height: 300px;
     margin: 0 auto;
     margin-top: 20px;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-around;
 }
 
@@ -491,11 +491,16 @@ min-height: 300px;
     font-size: 18px;
     }
 
+
+.itemtxt textarea{
+    resize: vertical;
+}
+    
 .contenedor-imgubi{
  
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
 }
 
 .contenedor-imgubi img{
