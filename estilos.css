@@ -277,9 +277,7 @@ html {
     align-items: start;
 }
 
-.contenedorcolumna{
-    width: 100%;
-}
+
 
 .contenedorconocimientos{
     margin-top: 30px;
@@ -458,7 +456,6 @@ min-height: 300px;
 }
 
 .fila-contacto{
-    height: 500px;
     width: 65%;
     margin: 0 auto;
     margin-top: 20px;
@@ -477,10 +474,9 @@ min-height: 300px;
 
 .contenedor-contacto{
     position: relative;
-height: 300px;
-display: flex;
-justify-content: center;
-flex-direction: column;
+    display: block;
+    justify-content: center;
+    flex-direction: column;
 
 }
 
@@ -496,7 +492,7 @@ flex-direction: column;
     }
 
 .contenedor-imgubi{
-    height: 500px;
+ 
     display: flex;
     justify-content: center;
     align-items: center;
