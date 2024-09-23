@@ -21,14 +21,13 @@ html {
     left: 0;
     z-index: 99;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
 
 }
 .cabeza h1 {
     margin: 0; 
-    padding-left: 100px; 
   }
   
   .cabeza h3 {
@@ -38,7 +37,6 @@ html {
   .cabeza .menu {
     display: flex;
     gap: 25px;
-    padding-right: 200px; 
 }
 .cabeza .menu a {
     text-decoration: none;  
