@@ -508,3 +508,169 @@ min-height: 300px;
 width: 470px;
 height: 470px;
 }
+
+.menu-toggle {
+    display: none;
+    background: transparent;
+    border: none;
+    color: #5ce46e;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .cabeza {
+        padding: 10px 20px;
+
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .cabeza .menu {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #0d0e0f;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .cabeza .menu.active {
+        display: flex;
+    }
+
+/* Ajustes para las imágenes de proyectos */
+.proyecto-item {
+    align-items: center;
+    width: 90%;
+    margin: 0 auto 20px;
+}
+
+.proyecto-item img {
+    max-width: 100%;
+    min-width: auto;
+    min-height: auto;
+    height: auto;
+}
+
+.contenedor-img{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Margen superior para el mapa de contacto */
+.contenedor-imgubi {
+    margin-top: 20px;
+}
+
+    /* Header */
+    .cabeza {
+      height: auto;
+      padding: 10px 0;
+    }
+    
+    .cabeza .menu {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    /* Inicio */
+    .contenedor {
+      padding: 20px;
+    }
+  
+    .contenedor img {
+      width: 150px;
+      height: 150px;
+    }
+  
+    /* Sobre Mi */
+    .SobreMi {
+      height: auto;
+    }
+  
+    .SobreMi p {
+      width: 90%;
+      height: auto;
+    }
+  
+    .contenedorfila {
+      flex-direction: column;
+      height: auto;
+      width: 90%;
+    }
+  
+    .datosheader, .colIntereses {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  
+    .datos ul li {
+      width: 100%;
+    }
+  
+    /* Proyectos */
+    .Proyectos {
+      height: auto;
+    }
+  
+    .filaconocimientos, .filaproyectos {
+      width: 90%;
+      margin: 0 auto;
+    }
+  
+    .contenedorconocimientos {
+      gap: 30px;
+    }
+  
+    .conocimiento-item {
+      height: 80px;
+      max-width: 80px;
+    }
+  
+    .conocimiento-item img {
+      height: 80px;
+      width: 80px;
+    }
+  
+    .proyecto-item {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .proyecto-item img {
+      max-width: 100%;
+      min-width: auto;
+      min-height: auto;
+    }
+  
+    /* Contacto */
+    .Contacto {
+      height: auto;
+    }
+  
+    .fila-contacto {
+      flex-direction: column;
+      width: 90%;
+    }
+  
+    .contenedor-contacto, .contenedor-imgubi {
+      width: 100%;
+    }
+  
+    .itemtxt input, .itemtxt textarea {
+      width: 100%;
+    }
+  
+    .contenedor-imgubi img {
+      width: 100%;
+      height: auto;
+    }
+  }

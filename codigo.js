@@ -1,3 +1,9 @@
+//FUNCION TOGGLEMENU
+function toggleMenu() {
+    const menu = document.querySelector('.cabeza .menu');
+    menu.classList.toggle('active');
+}
+
 //FUNCION DESCARGAR CV
 function descargarCV() {
     const link = document.createElement('a');
