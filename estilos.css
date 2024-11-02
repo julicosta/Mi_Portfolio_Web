@@ -560,7 +560,8 @@ height: 470px;
 
 .contenedor-img{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 100%;
 }
 
 /* Margen superior para el mapa de contacto */
@@ -641,8 +642,10 @@ height: 470px;
     }
   
     .proyecto-item {
-      width: 100%;
-      margin-bottom: 20px;
+        width: 100%;
+        margin-bottom: 20px;
+        max-width: 50%;
+        min-width: 280px;
     }
   
     .proyecto-item img {
